@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Random Images</h1>
+    <div class="progress"></div>
+    <div class="imageConteiner">
+      <div class="imageWrapper">
+        <img
+          id="img1"
+          src="https://via.placeholder.com/600/1fe43f"
+          class="active"
+        />
+      </div>
+      <div class="imageWrapper">
+        <img id="img2" src="https://via.placeholder.com/600/392537" />
+      </div>
+      <div class="imageWrapper">
+        <img id="img3" src="https://via.placeholder.com/600/fdf73e" />
+      </div>
+      <div class="imageWrapper">
+        <img id="img4" src="https://via.placeholder.com/600/9e59da" />
+      </div>
+    </div>
+    <div class="bigImage">
+      <div class="mainImage">
+        <img id="mainImg" src="https://via.placeholder.com/600/1fe43f" />
+        <div class="author"></div>
+      </div>
+    </div>
+    <p class="buttonConteiner">
+      <button class="updateImages">New</button>
+      <button class="stopTimer">Stop</button>
+    </p>
+    <p class="down">Random image app by <strong>Vlad Zakharov</strong></p>
+    <script src="./script.js"></script>
+  </body>
+</html>
